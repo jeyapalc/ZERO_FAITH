@@ -1,0 +1,123 @@
+[
+  {
+    "id": "violent-link",
+    "label": "Connection to intended violence",
+    "domain": "behavioral_review",
+    "summary": "Identify direct evidence connecting grievance to intended harm.",
+    "source_ids": [
+      "ca-csis",
+      "fbi-prevention"
+    ],
+    "scope": "general_targeted_violence",
+    "evidence_basis": "project_authored_observation_prompt",
+    "evidence_needed": [
+      "What was directly observed and when?",
+      "What indicates intended harm, and what contradicts it?",
+      "What benign, protective, or victimization context applies?"
+    ],
+    "action": "human_review",
+    "automated_inference": false,
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research"
+  },
+  {
+    "id": "emulation",
+    "label": "Attacker emulation",
+    "domain": "behavioral_review",
+    "summary": "Separate emulation from history, research, and reporting.",
+    "source_ids": [
+      "fbi-prevention"
+    ],
+    "scope": "general_targeted_violence",
+    "evidence_basis": "project_authored_observation_prompt",
+    "evidence_needed": [
+      "What was directly observed and when?",
+      "What indicates intended harm, and what contradicts it?",
+      "What benign, protective, or victimization context applies?"
+    ],
+    "action": "human_review",
+    "automated_inference": false,
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research"
+  },
+  {
+    "id": "preparation",
+    "label": "Change toward preparation",
+    "domain": "behavioral_review",
+    "summary": "Record corroborated preparation and change over time.",
+    "source_ids": [
+      "fbi-prevention"
+    ],
+    "scope": "general_targeted_violence",
+    "evidence_basis": "project_authored_observation_prompt",
+    "evidence_needed": [
+      "What was directly observed and when?",
+      "What indicates intended harm, and what contradicts it?",
+      "What benign, protective, or victimization context applies?"
+    ],
+    "action": "human_review",
+    "automated_inference": false,
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research"
+  },
+  {
+    "id": "incitement",
+    "label": "Encouragement of violence",
+    "domain": "behavioral_review",
+    "summary": "Assess target, speaker role, context, and intent.",
+    "source_ids": [
+      "ca-csis"
+    ],
+    "scope": "general_targeted_violence",
+    "evidence_basis": "project_authored_observation_prompt",
+    "evidence_needed": [
+      "What was directly observed and when?",
+      "What indicates intended harm, and what contradicts it?",
+      "What benign, protective, or victimization context applies?"
+    ],
+    "action": "human_review",
+    "automated_inference": false,
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research"
+  },
+  {
+    "id": "coercion",
+    "label": "Recruitment through coercion",
+    "domain": "behavioral_review",
+    "summary": "Distinguish victimization from directing abuse.",
+    "source_ids": [
+      "ca-rcmp"
+    ],
+    "scope": "general_targeted_violence",
+    "evidence_basis": "project_authored_observation_prompt",
+    "evidence_needed": [
+      "What was directly observed and when?",
+      "What indicates intended harm, and what contradicts it?",
+      "What benign, protective, or victimization context applies?"
+    ],
+    "action": "human_review",
+    "automated_inference": false,
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research"
+  },
+  {
+    "id": "protective",
+    "label": "Protective context",
+    "domain": "behavioral_review",
+    "summary": "Record credible alternatives, support, and de-escalation.",
+    "source_ids": [
+      "fbi-prevention"
+    ],
+    "scope": "general_targeted_violence",
+    "evidence_basis": "project_authored_observation_prompt",
+    "evidence_needed": [
+      "What was directly observed and when?",
+      "What indicates intended harm, and what contradicts it?",
+      "What benign, protective, or victimization context applies?"
+    ],
+    "action": "human_review",
+    "automated_inference": false,
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research"
+  }
+]

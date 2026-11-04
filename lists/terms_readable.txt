@@ -1,0 +1,57 @@
+REVIEW VOCABULARY — mentions are not verdicts
+
+764 [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Active Club Canada [contextual / scene_term] — https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
+Anschlagsplanung [contextual / behavior_reference] — https://www.fbi.gov/file-repository/reports-and-publications/making-prevention-a-reality.pdf/download
+anti-authority violence [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
+Aryan Strikeforce [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Atomwaffen Division [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+attack planning [contextual / behavior_reference] — https://www.fbi.gov/file-repository/reports-and-publications/making-prevention-a-reality.pdf/download
+attacker emulation [contextual / behavior_reference] — https://www.fbi.gov/file-repository/reports-and-publications/making-prevention-a-reality.pdf/download
+autoritätsfeindliche Gewalt [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
+AWD [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+beschwerdegetriebene Gewalt [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
+Big Igloo [contextual / coded_reference] — https://www.adl.org/resources/backgrounder/boogaloo-movement
+Big Luau [contextual / coded_reference] — https://www.adl.org/resources/backgrounder/boogaloo-movement
+blackpill [contextual / coded_reference] — https://www.adl.org/resources/backgrounder/incels-involuntary-celibates
+blackpilled [contextual / coded_reference] — https://www.adl.org/resources/backgrounder/incels-involuntary-celibates
+Blood & Honour [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Blood and Honour [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+boogaloo [contextual / coded_reference] — https://www.adl.org/resources/backgrounder/boogaloo-movement
+C18 [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Combat 18 [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Diagolon [contextual / scene_term] — https://www.antihate.ca/white_nationalism_in_canada_organized_emboldened_and_growing https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
+Dominion Society of Canada [contextual / scene_term] — https://www.antihate.ca/white_nationalism_in_canada_organized_emboldened_and_growing
+femoid [contextual / coded_reference] — https://www.adl.org/resources/backgrounder/incels-involuntary-celibates
+foid [contextual / coded_reference] — https://www.adl.org/resources/backgrounder/incels-involuntary-celibates
+fremdenfeindliche Gewalt [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
+Frontenac Active Club [contextual / scene_term] — https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
+gender-driven violence [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
+geschlechtsbezogene Gewalt [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
+gezielte Morddrohungen [contextual / behavior_reference] — https://www.fbi.gov/file-repository/reports-and-publications/making-prevention-a-reality.pdf/download
+going ER [contextual / coded_reference] — https://www.adl.org/resources/backgrounder/incels-involuntary-celibates
+grievance-driven violence [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
+ideologically motivated violent extremism [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
+ideologisch motivierter Gewaltextremismus [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
+IMVE [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
+James Mason [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Loyalist Pioneers [contextual / scene_term] — https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
+Maniac Murder Cult [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Manitoba Active Club [contextual / scene_term] — https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
+Nationalist-13 [contextual / scene_term] — https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
+Ordo Atlantica [contextual / scene_term] — https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
+Proud Boys [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Reichsbuerger [contextual / scene_term] — https://www.lfv.bayern.de/themen/reichsbuerger-und-selbstverwalter/
+Reichsbürger [contextual / scene_term] — https://www.lfv.bayern.de/themen/reichsbuerger-und-selbstverwalter/
+Russian Imperial Movement [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Second Sons Canada [contextual / scene_term] — https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
+Selbstverwalter [contextual / scene_term] — https://www.lfv.bayern.de/themen/reichsbuerger-und-selbstverwalter/
+targeted death threats [contextual / behavior_reference] — https://www.fbi.gov/file-repository/reports-and-publications/making-prevention-a-reality.pdf/download
+Terrorgram Collective [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+The Base [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Three Percenters [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Toronto Fitness Club [contextual / scene_term] — https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
+Toronto Pioneers [contextual / scene_term] — https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
+Tribe and Train [contextual / coded_reference] — https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
+Täter-Nachahmung [contextual / behavior_reference] — https://www.fbi.gov/file-repository/reports-and-publications/making-prevention-a-reality.pdf/download
+xenophobic violence [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html

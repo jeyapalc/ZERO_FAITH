@@ -1,0 +1,822 @@
+[
+  {
+    "id": "imve",
+    "terms": {
+      "en": [
+        "ideologically motivated violent extremism",
+        "IMVE"
+      ],
+      "de": [
+        "ideologisch motivierter Gewaltextremismus"
+      ]
+    },
+    "category": "research_reference",
+    "source_ids": [
+      "ca-csis"
+    ],
+    "scope": "imve_context",
+    "meaning": "Canadian policy terminology, not a religion or identity label.",
+    "evidence_basis": "project_query_vocabulary",
+    "german_basis": "project_translation_or_shared_name; see context",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": false,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "xenophobic",
+    "terms": {
+      "en": [
+        "xenophobic violence"
+      ],
+      "de": [
+        "fremdenfeindliche Gewalt"
+      ]
+    },
+    "category": "research_reference",
+    "source_ids": [
+      "ca-csis"
+    ],
+    "scope": "imve_context",
+    "meaning": "Violence linked to racial or ethnonationalist grievance.",
+    "evidence_basis": "project_query_vocabulary",
+    "german_basis": "project_translation_or_shared_name; see context",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": false,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "anti-authority",
+    "terms": {
+      "en": [
+        "anti-authority violence"
+      ],
+      "de": [
+        "autoritätsfeindliche Gewalt"
+      ]
+    },
+    "category": "research_reference",
+    "source_ids": [
+      "ca-csis"
+    ],
+    "scope": "imve_context",
+    "meaning": "Violence against state or law-enforcement authority.",
+    "evidence_basis": "project_query_vocabulary",
+    "german_basis": "project_translation_or_shared_name; see context",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": false,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "gender",
+    "terms": {
+      "en": [
+        "gender-driven violence"
+      ],
+      "de": [
+        "geschlechtsbezogene Gewalt"
+      ]
+    },
+    "category": "research_reference",
+    "source_ids": [
+      "ca-csis"
+    ],
+    "scope": "imve_context",
+    "meaning": "Violence tied to gender or sexual-orientation hostility.",
+    "evidence_basis": "project_query_vocabulary",
+    "german_basis": "project_translation_or_shared_name; see context",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": false,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "grievance",
+    "terms": {
+      "en": [
+        "grievance-driven violence"
+      ],
+      "de": [
+        "beschwerdegetriebene Gewalt"
+      ]
+    },
+    "category": "research_reference",
+    "source_ids": [
+      "ca-csis"
+    ],
+    "scope": "imve_context",
+    "meaning": "Other ideological or personal grievances connected to violence.",
+    "evidence_basis": "project_query_vocabulary",
+    "german_basis": "project_translation_or_shared_name; see context",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": false,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "awd",
+    "terms": {
+      "en": [
+        "Atomwaffen Division",
+        "AWD"
+      ],
+      "de": []
+    },
+    "category": "entity_reference",
+    "source_ids": [
+      "ca-lte"
+    ],
+    "scope": "canadian_lte_reference",
+    "meaning": "Neo-Nazi entity.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "base",
+    "terms": {
+      "en": [
+        "The Base"
+      ],
+      "de": []
+    },
+    "category": "entity_reference",
+    "source_ids": [
+      "ca-lte"
+    ],
+    "scope": "canadian_lte_reference",
+    "meaning": "Accelerationist entity; ordinary phrase also common.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "rim",
+    "terms": {
+      "en": [
+        "Russian Imperial Movement"
+      ],
+      "de": []
+    },
+    "category": "entity_reference",
+    "source_ids": [
+      "ca-lte"
+    ],
+    "scope": "canadian_lte_reference",
+    "meaning": "Entity reference.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "asf",
+    "terms": {
+      "en": [
+        "Aryan Strikeforce"
+      ],
+      "de": []
+    },
+    "category": "entity_reference",
+    "source_ids": [
+      "ca-lte"
+    ],
+    "scope": "canadian_lte_reference",
+    "meaning": "Entity reference.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "pb",
+    "terms": {
+      "en": [
+        "Proud Boys"
+      ],
+      "de": []
+    },
+    "category": "entity_reference",
+    "source_ids": [
+      "ca-lte"
+    ],
+    "scope": "canadian_lte_reference",
+    "meaning": "Entity reference.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "bh",
+    "terms": {
+      "en": [
+        "Blood & Honour",
+        "Blood and Honour"
+      ],
+      "de": []
+    },
+    "category": "entity_reference",
+    "source_ids": [
+      "ca-lte"
+    ],
+    "scope": "canadian_lte_reference",
+    "meaning": "Racist skinhead network.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "c18",
+    "terms": {
+      "en": [
+        "Combat 18",
+        "C18"
+      ],
+      "de": []
+    },
+    "category": "entity_reference",
+    "source_ids": [
+      "ca-lte"
+    ],
+    "scope": "canadian_lte_reference",
+    "meaning": "Neo-Nazi entity.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "three",
+    "terms": {
+      "en": [
+        "Three Percenters"
+      ],
+      "de": []
+    },
+    "category": "entity_reference",
+    "source_ids": [
+      "ca-lte"
+    ],
+    "scope": "canadian_lte_reference",
+    "meaning": "Entity reference.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "mason",
+    "terms": {
+      "en": [
+        "James Mason"
+      ],
+      "de": []
+    },
+    "category": "entity_reference",
+    "source_ids": [
+      "ca-lte"
+    ],
+    "scope": "canadian_lte_reference",
+    "meaning": "Listed individual; unrelated people share this name.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "terrorgram",
+    "terms": {
+      "en": [
+        "Terrorgram Collective"
+      ],
+      "de": []
+    },
+    "category": "entity_reference",
+    "source_ids": [
+      "ca-lte"
+    ],
+    "scope": "canadian_lte_reference",
+    "meaning": "White supremacist online network.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "764",
+    "terms": {
+      "en": [
+        "764"
+      ],
+      "de": []
+    },
+    "category": "entity_reference",
+    "source_ids": [
+      "ca-lte"
+    ],
+    "scope": "canadian_lte_reference",
+    "meaning": "Violent online network; ordinary number also common.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "mmc",
+    "terms": {
+      "en": [
+        "Maniac Murder Cult"
+      ],
+      "de": []
+    },
+    "category": "entity_reference",
+    "source_ids": [
+      "ca-lte"
+    ],
+    "scope": "canadian_lte_reference",
+    "meaning": "Violent online network.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "ssc",
+    "terms": {
+      "en": [
+        "Second Sons Canada"
+      ],
+      "de": []
+    },
+    "category": "scene_term",
+    "source_ids": [
+      "ca-isd"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Canadian network discussed by ISD; no listing status inferred.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "nationalist13",
+    "terms": {
+      "en": [
+        "Nationalist-13"
+      ],
+      "de": []
+    },
+    "category": "scene_term",
+    "source_ids": [
+      "ca-isd"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Canadian network discussed by ISD; no listing status inferred.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "toronto",
+    "terms": {
+      "en": [
+        "Toronto Pioneers",
+        "Toronto Fitness Club"
+      ],
+      "de": []
+    },
+    "category": "scene_term",
+    "source_ids": [
+      "ca-isd"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Canadian network discussed by ISD; no listing status inferred.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "frontenac",
+    "terms": {
+      "en": [
+        "Frontenac Active Club"
+      ],
+      "de": []
+    },
+    "category": "scene_term",
+    "source_ids": [
+      "ca-isd"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Canadian network discussed by ISD; no listing status inferred.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "active-ca",
+    "terms": {
+      "en": [
+        "Active Club Canada"
+      ],
+      "de": []
+    },
+    "category": "scene_term",
+    "source_ids": [
+      "ca-isd"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Canadian network discussed by ISD; no listing status inferred.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "loyalist",
+    "terms": {
+      "en": [
+        "Loyalist Pioneers"
+      ],
+      "de": []
+    },
+    "category": "scene_term",
+    "source_ids": [
+      "ca-isd"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Canadian network discussed by ISD; no listing status inferred.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "manitoba",
+    "terms": {
+      "en": [
+        "Manitoba Active Club"
+      ],
+      "de": []
+    },
+    "category": "scene_term",
+    "source_ids": [
+      "ca-isd"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Canadian network discussed by ISD; no listing status inferred.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "ordo",
+    "terms": {
+      "en": [
+        "Ordo Atlantica"
+      ],
+      "de": []
+    },
+    "category": "scene_term",
+    "source_ids": [
+      "ca-isd"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Canadian network discussed by ISD; no listing status inferred.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "diagolon",
+    "terms": {
+      "en": [
+        "Diagolon"
+      ],
+      "de": []
+    },
+    "category": "scene_term",
+    "source_ids": [
+      "ca-cahn",
+      "ca-isd"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Canadian network discussed by researchers; no listing status inferred.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "dsc",
+    "terms": {
+      "en": [
+        "Dominion Society of Canada"
+      ],
+      "de": []
+    },
+    "category": "scene_term",
+    "source_ids": [
+      "ca-cahn"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Organization discussed in a dated advocacy-research editorial.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Source is a CAHN editorial. Classification is attributed to its authors, not a criminal finding or LTE designation. Independently review before enforcement."
+  },
+  {
+    "id": "tribe",
+    "terms": {
+      "en": [
+        "Tribe and Train"
+      ],
+      "de": []
+    },
+    "category": "coded_reference",
+    "source_ids": [
+      "ca-isd"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Organizing slogan discussed by ISD; fitness itself is benign.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "boog",
+    "terms": {
+      "en": [
+        "boogaloo",
+        "Big Igloo",
+        "Big Luau"
+      ],
+      "de": []
+    },
+    "category": "coded_reference",
+    "source_ids": [
+      "adl-boog"
+    ],
+    "scope": "imve_context",
+    "meaning": "Civil-war reference with ordinary dance, film and joke uses.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "er",
+    "terms": {
+      "en": [
+        "going ER"
+      ],
+      "de": []
+    },
+    "category": "coded_reference",
+    "source_ids": [
+      "adl-incel"
+    ],
+    "scope": "imve_context",
+    "meaning": "Past-attacker reference; ER also means emergency room.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "blackpill",
+    "terms": {
+      "en": [
+        "blackpill",
+        "blackpilled"
+      ],
+      "de": []
+    },
+    "category": "coded_reference",
+    "source_ids": [
+      "adl-incel"
+    ],
+    "scope": "imve_context",
+    "meaning": "Fatalistic scene vocabulary; does not establish violent intent.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "foid",
+    "terms": {
+      "en": [
+        "foid",
+        "femoid"
+      ],
+      "de": []
+    },
+    "category": "coded_reference",
+    "source_ids": [
+      "adl-incel"
+    ],
+    "scope": "imve_context",
+    "meaning": "Misogynistic dehumanizing vocabulary.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "reich",
+    "terms": {
+      "en": [],
+      "de": [
+        "Reichsbürger",
+        "Reichsbuerger",
+        "Selbstverwalter"
+      ]
+    },
+    "category": "scene_term",
+    "source_ids": [
+      "de-reich"
+    ],
+    "scope": "german_scene_reference",
+    "meaning": "Heterogeneous anti-state scene; not every adherent uses violence.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "project_translation_or_shared_name; see context",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "planning",
+    "terms": {
+      "en": [
+        "attack planning"
+      ],
+      "de": [
+        "Anschlagsplanung"
+      ]
+    },
+    "category": "behavior_reference",
+    "source_ids": [
+      "fbi-prevention"
+    ],
+    "scope": "general_targeted_violence",
+    "meaning": "Review query, not an observed behavior.",
+    "evidence_basis": "project_query_vocabulary",
+    "german_basis": "project_translation_or_shared_name; see context",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "emulation",
+    "terms": {
+      "en": [
+        "attacker emulation"
+      ],
+      "de": [
+        "Täter-Nachahmung"
+      ]
+    },
+    "category": "behavior_reference",
+    "source_ids": [
+      "fbi-prevention"
+    ],
+    "scope": "general_targeted_violence",
+    "meaning": "Review query, not an observed behavior.",
+    "evidence_basis": "project_query_vocabulary",
+    "german_basis": "project_translation_or_shared_name; see context",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "threats",
+    "terms": {
+      "en": [
+        "targeted death threats"
+      ],
+      "de": [
+        "gezielte Morddrohungen"
+      ]
+    },
+    "category": "behavior_reference",
+    "source_ids": [
+      "fbi-prevention"
+    ],
+    "scope": "general_targeted_violence",
+    "meaning": "Review query, not an observed behavior.",
+    "evidence_basis": "project_query_vocabulary",
+    "german_basis": "project_translation_or_shared_name; see context",
+    "action": "human_review",
+    "reviewed_at": "2026-11-03",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  }
+]
