@@ -11,7 +11,7 @@ Download and extract the [offline ZIP](https://raw.githubusercontent.com/jeyapal
 | `categories/incidents-and-figures` | Canadian cases, historical events, named offenders and documented references to them |
 | `categories/narratives-and-slogans` | Repeated phrases, ideological narratives, slogans and cultural references |
 | `categories/codes-and-symbols` | Number codes, initials, mixed codes, searchable glyphs and symbol names |
-| `categories/conduct-and-context` | Source passages about threats, coercion, reporting and related artifacts |
+| `categories/conduct-and-context` | Reports, messages or notes that use terms about threats, coercion or evidence. For searches and purchases, start with the relevant artifact types below. |
 | `categories/official-terminology` | Canadian IMVE terminology and sourced terminology used in the original projects |
 
 Each list has a `.txt` and a `.tsv`. The TXT contains all its terms, one per line, for copying into the Find dialog in your tool. The TSV includes the category, term type, review note and sources. In Excel use **Data > From Text/CSV**, select UTF-8 and Tab, and set columns to **Text** before loading. That preserves entries such as `14/88` and `18`. Filter by `category`, `term_kind`, or `enabled`. Use the six sublists to focus review on one question at a time.
@@ -35,6 +35,18 @@ The first pass scans rows marked `TRUE`. For the complete masterlist, add `-AllT
 PowerShell can read UTF-8 TXT, CSV, TSV, LOG and Markdown. For documents, screenshots, chat images, audio or forensic containers, first export text, captions, OCR or transcripts with an approved tool. Examine the original image or record alongside any text hit. Symbol names can match annotations. Literal glyphs such as `ᛟ`, `卍` and `卐` can match when those characters occur in exported text. Runes and swastika-like shapes also have historical, cultural and religious uses. Preserve the source image, surrounding language and context in the case workspace. [ADL Visual Database](https://www.adl.org/resources/hate-symbols/search) · [Public Order Emergency Commission report, Vol. 3](https://publicorderemergencycommission.ca/files/documents/Final-Report/Vol-3-Report-of-the-Public-Inquiry-into-the-2022-Public-Order-Emergency.pdf)
 
 The scanner records the first literal occurrence of each term on each export line. `-WholeWord` reduces accidental matches inside other words or numbers. It can miss glyphs embedded in a longer token. A focused Ctrl+F pass can find those strings. Search variants separately when punctuation, accents, spacing, OCR or line wrapping changes the text. The CSV gives export line and column. Use the original artifact ID for the evidence record. CSV matching includes every field on the line, so check which field contains the hit.
+
+## Review actual searches and purchases
+
+Phrases such as `chemical theft`, `missing chemicals` and `suspected explosive device` can surface incident reports, news, safety material or conversations about suspected events. Their presence in the conduct list supplies no evidence that someone would type them when researching or buying something.
+
+| Question | Start with the original records | Check what the record supports |
+| --- | --- | --- |
+| What was searched? | Search-query fields and browser visits within the relevant time range | Distinguish a submitted query from a page title, quoted text, suggestion or cached content. Verify the source field and browser profile. |
+| What was viewed, saved or discussed? | Visits, downloads, bookmarks and messages | Distinguish a visit, saved link or downloaded file from authorship, reading or endorsement. Check sent or received direction and nearby messages. |
+| What was ordered, paid for or received? | Cart events, order and cancellation records, payment and refund records, and delivery records where available | Link records using an order or transaction reference. Compare timestamps and status. Check whose account was involved and whether the records point to the same transaction. |
+
+Start with the authorized date range and IDs already in the file, such as a message, order or transaction reference. Export each relevant artifact type with its original record ID and timestamps intact. Keep evidence and results in the case workspace. Use the public masterlist to surface references in the exported text, and use the original records to establish the action. A clear search or purchase record can still leave purpose and attribution unresolved. [NIST digital investigation review](https://www.nist.gov/publications/digital-investigation-techniques-nist-scientific-foundation-review) · [Magnet Forensics public browser artifact guide](https://www.magnetforensics.com/blog/artifact-profile-google-chrome/)
 
 ## Examine and document
 

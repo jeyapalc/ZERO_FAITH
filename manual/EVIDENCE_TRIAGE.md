@@ -19,11 +19,11 @@ A wordlist hit is a retrieval result. It does not establish who performed an act
 
 ## Synthetic example
 
-**Observation:** an exported browser record contains a product page. An unrelated order email mentions the same ordinary product.
+**Observation:** a browser visit shows a notebook product page at 09:12. An order email shows a notebook order at 09:30. A cancellation at 09:37 carries the same order ID as the email.
 
-**Supported:** the extraction contains those records, subject to validation of their source and timestamps.
+**Supported:** subject to validation of the recorded times and status fields, the order email and cancellation point to one order. The earlier visit shows a page reference. Check whether the visit and the order can be attributed to the same person.
 
-**Not established by those records alone:** who opened the page, whether the order was paid or delivered, possession of the item, intended use, or any connection to a device or offence. A cancelled order or documented legitimate use may contradict the initial hypothesis.
+**Open questions:** whether the order was paid, refunded or fulfilled, and whether the earlier visit had any connection to it. Look for the relevant payment and fulfillment records, and report the cancellation alongside the order confirmation.
 
 If physical-device interpretation is required, record the qualified examiner's conclusion and the exhibits supporting it. A keyword or combination of purchases must not be substituted for that examination. This manual does not map chemicals, components, acquisition queries, or purchases to explosive designs.
 
