@@ -1,3 +1,4 @@
+1 October shooting
 109
 109/110
 110
@@ -54,20 +55,25 @@ Anders Breivik
 animal cruelty
 Anschlagsplanung
 Anschlagsvorbereitung
+anti-authority militia
 anti-authority violence
 anti-law enforcement violence
 Anudda Shoah
 Arda Küçükyetim
+arson investigation
 Aryan Strike Force
 Aryan Strikeforce
 Aryan Terror Brigade
 ASF
+assault with a weapon
 Atalante
 Atomwaffen Division
 Attack on Christchurch Mosques
 attack planning
 attack preparation
 attacker emulation
+attempted arson
+attempted murder
 attentat à la mosquée de Québec
 Ausgangsstoff für Explosivstoffe
 autoritätsfeindliche Gewalt
@@ -82,6 +88,8 @@ Black Sun
 black-pill
 blackpill
 blackpilled
+bleeding control
+blocked emergency exit
 Blood & Honour
 Blood and Honour
 Blood and Soil
@@ -91,18 +99,24 @@ Blut und Boden
 Blut und Ehre
 Blutzeichen
 boogaloo
+Boogaloo Bois
 Bratislava attack
 Brenton Harrison Tarrant
 Brenton Tarrant
 Bundy ranch standoff
 C-18
 C18
+call for service
+Capitol riot
 Celtic cross
 chemical security
 chemical theft
 Chemikaliendiebstahl
 Chemikaliensicherheit
 Christchurch Masjidain Attack
+Christopher Dorner
+Christopher Jordan Dorner
+club membership
 coerced self-harm
 collectif Terrorgram
 Columbiners
@@ -125,6 +139,7 @@ Dylann Roof
 Dylann Storm Roof
 Elliot Rodger
 Elliott Rodger
+emergency medical services
 Eric Harris
 erzwungene Selbstverletzung
 Eurabia
@@ -139,15 +154,22 @@ extrémisme violent à caractère nihiliste
 fan signs
 Fan-Zeichen
 femoid
+fire investigation
+firearm
+firearms
+Firearms Safety Course
+first aid course
 fixation
 Fixierung
 foid
+formation en secourisme
 Fourteen Words
 Frei, sozial und national
 fremdenfeindliche Gewalt
 Frontenac Active Club
 frühere Amokläufer
 frühere Attentäter
+garrot
 gender identity-driven violence
 gender-driven violence
 geschlechtsbezogene Gewalt
@@ -157,6 +179,8 @@ going ER
 grand remplacement
 Great Replacement
 grievance-driven violence
+Groypers
+gunshot wound
 H3ll
 Hakenkreuz
 Halle synagogue attack
@@ -167,13 +191,22 @@ Hide & Stalk
 Hide and Stalk
 HJ
 Holohoax
+hunter education
+hunting
+hunting licence
+hunting license
+I am going to kill you
+I will kill you
 Ian Stuart Donaldson
 ideologically motivated violent extremism
 ideologisch motivierter Gewaltextremismus
 IMVE
 incel ideology
+incident report
 inventory discrepancy
 James Mason
+January 6 attack on the United States Capitol
+January 6 Capitol attack
 John Earnest
 Jokela High School
 Juraj Krajčík
@@ -181,11 +214,17 @@ Kaskar
 Keltenkreuz
 Killdozer
 KKK
+knife
+knives
 Ku Klux Klan
 Kult Ubiystva
+Las Vegas shooting
+LAX shooting
 Leak Society
 Leakage
 London Family Attack
+Los Angeles International Airport shooting
+Los Angeles shootout
 Loyalist Pioneers
 Légion Nationaliste
 Légitime Violence
@@ -202,14 +241,19 @@ Massenschießereien
 Meine Ehre heisst Treue
 Meine Ehre heißt Treue
 Meine Ehre heißt Treue!
+menaces de mort
+menaces d’attaque
 Michail Chkhikvishvili
 Mikhail Chkhikvishvili
+milice antiautoritaire
 militant accelerationism
 misogynistic material
 missing chemicals
 Mit deutschem Gruß
 MKU
 MKY
+Molotov cocktail
+Molotov cocktails
 Morddrohung
 mouvement des incels
 Muh Six Gorillion
@@ -223,10 +267,15 @@ nihilistischer Gewaltextremismus
 NLM
 NMK
 No Lives Matter
+North Hollywood bank robbery
+North Hollywood shootout
 NS
 NSO
 NVE
+Oath Keepers
+obstructed exit
 occupation of the Malheur National Wildlife Refuge
+October 1 shooting
 Odal rune
 Odalrune
 Oklahoma City bombing
@@ -242,20 +291,30 @@ Payton Gendron
 Payton S. Gendron
 Pekka Eric Auvinen
 Pepe the Frog
+police file number
+police responded
 Poway synagogue shooting
+pressure dressing
 previous shooters
+proféré des menaces
 Proud Boys
+QAnon adherents
 Québec City mosque attack
 Québec Radical
 race war
 Racial Holy War
 racial hygiene
 RAHOWA
+range reservation
 Rassenhygiene
 Reichsbuerger
 Reichsbürger
+reported to police
+responding officers
+Robb Elementary School
 Robert Bowers
 Robert Gregory Bowers
+Route 91 Harvest
 Ruby Ridge
 Russian Imperial Movement
 SA
@@ -267,9 +326,15 @@ Saints Culture
 Schnitzzeichen
 Schwarze Sonne
 Second Sons Canada
+seditious conspiracy
 Selbstverwalter
 sextortion
 sexuelle Erpressung
+shooting club
+shooting clubs
+shooting range
+shooting ranges
+shots fired
 Sieg Heil
 Sieg und Heil für Deutschland
 Six Gorillion
@@ -277,13 +342,17 @@ Skrewdriver
 Slit Town
 Solomon Henderson
 Sonnenrad
+sport shooting
 Sprengstoffrecherche
 Sprengvorrichtung
 SS
 SS bolts
 SS runes
 SS-Totenkopf
+stab wound
+stabbing
 Stephan Balliet
+Stop the Steal rally
 Stormfront
 Supreme White Power
 suspected explosive device
@@ -291,7 +360,10 @@ suspicious chemical transaction
 suspicious transaction
 Swastika
 Swatting
+sword
+swords
 SWP
+target shooting
 target surveillance
 targeted death threats
 TCC
@@ -303,18 +375,30 @@ Terrorgram Collective
 The Base
 The Com
 The Turner Diaries
+threat of violence
+threat to kill
+threatened an attack
+threatening message
 Three Percenters
 Tierquälerei
 Timothy McVeigh
 Toronto Fitness Club
 Toronto Pioneers
 Toronto van attack
+tourniquet
+tourniquets
+trauma kit
 Tree of Life synagogue shooting
 Tribe and Train
 True Crime Community
 Täter-Nachahmung
+U.S. Capitol breach
 Unsere Ehre heisst Treue
 Unsere Ehre heißt Treue
+uttering threats
+Uvalde
+Uvalde school shooting
+Vegas shooting
 verdächtige Transaktion
 vermisste Chemikalien
 violence antiautoritaire
@@ -337,11 +421,13 @@ Waffenbeschaffung
 wall signs
 We must secure the existence of our people and a future for white children
 weapons acquisition
+weapons complaint
 white genocide
 white nationalism
 White Power
 White Pride World Wide
 white supremacist
+witness statement
 WP
 WPWW
 xenophobic violence

@@ -2,7 +2,7 @@
 
 ## Canadian IMVE keyword review kit
 
-**[Download the offline ZIP](https://raw.githubusercontent.com/jeyapalc/ZERO_FAITH/imve-review/downloads/imve-review.zip)** or open the [review guide](docs/imve-review/README.md). The ZIP includes one masterlist, six category sublists, a PowerShell scanner, [a prompt for your local AI](docs/imve-review/LOCAL-AI.md), and public research notes.
+**[Download the offline ZIP](https://raw.githubusercontent.com/jeyapalc/ZERO_FAITH/imve-review/downloads/imve-review.zip)** for the cited masterlist, six category sublists, and PowerShell scripts. See the [review guide](docs/imve-review/README.md) for setup.
 
 | Find in authorized records | Plain text | Cited TSV |
 | --- | --- | --- |
@@ -13,8 +13,9 @@
 | Numbers, letters and symbols | [TXT](lists/imve-review/categories/codes-and-symbols.txt) | [TSV](lists/imve-review/categories/codes-and-symbols.tsv) |
 | Conduct and artifact context | [TXT](lists/imve-review/categories/conduct-and-context.txt) | [TSV](lists/imve-review/categories/conduct-and-context.tsv) |
 | Official terminology | [TXT](lists/imve-review/categories/official-terminology.txt) | [TSV](lists/imve-review/categories/official-terminology.tsv) |
+| Context terms | [TXT](lists/imve-review/context-mentions.txt) | [TSV](lists/imve-review/context-mentions.tsv) |
 
-Every result points the reviewer back to the original record. Use the existing [Canadian listed entity registry](CANADA_LTE_CATALOG.md) for wider national security lookups across categories.
+[URL and search records](artifact-review/README.md) · [Website matching](artifact-review/domains/README.md) · [WHMIS and transport safety](whmis/README.md) · [Canadian listed entities](CANADA_LTE_CATALOG.md)
 
 ## Masterlist and user manual
 

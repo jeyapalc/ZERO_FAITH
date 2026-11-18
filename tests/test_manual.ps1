@@ -82,5 +82,7 @@ foreach ($expectedCode in '764', '14/88', 'CVLT', $rune) {
     Assert-True ($hits.Count -eq 1 -and $hits[0].line_number -eq '3' -and $hits[0].source_urls) "ZIP scan lost the literal match or citation for $expectedCode."
 }
 
+& (Join-Path $PSScriptRoot 'test_artifact_match.ps1') -KitRoot $kit
+
 Write-Host 'PowerShell manual tests passed.'
 # Leave only synthetic temporary fixtures; no real document data is used.

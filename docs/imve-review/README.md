@@ -1,6 +1,6 @@
 # Canadian IMVE keyword review
 
-Download and extract the [offline ZIP](https://raw.githubusercontent.com/jeyapalc/ZERO_FAITH/imve-review/downloads/imve-review.zip) in an approved work location. The kit searches exported text locally and produces a CSV of candidate passages for an examiner. It requires no account or network connection after download. Use [LOCAL-AI.md](LOCAL-AI.md) to have an approved local assistant walk you through the PowerShell command.
+Extract the [offline ZIP](https://raw.githubusercontent.com/jeyapalc/ZERO_FAITH/imve-review/downloads/imve-review.zip) in an approved work location. The PowerShell script reads exported text and writes matches to CSV.
 
 ## Choose a list
 
@@ -13,6 +13,8 @@ Download and extract the [offline ZIP](https://raw.githubusercontent.com/jeyapal
 | `categories/codes-and-symbols` | Number codes, initials, mixed codes, searchable glyphs and symbol names |
 | `categories/conduct-and-context` | Reports, messages or notes that use terms about threats, coercion or evidence. For searches and purchases, start with the relevant artifact types below. |
 | `categories/official-terminology` | Canadian IMVE terminology and sourced terminology used in the original projects |
+| `context-mentions` | Optional threat wording, incident references, first aid, sport and historical names |
+| `whmis/masterlist` | Transport labels, PPE and workplace safety terms |
 
 Each list has a `.txt` and a `.tsv`. The TXT contains all its terms, one per line, for copying into the Find dialog in your tool. The TSV includes the category, term type, review note and sources. In Excel use **Data > From Text/CSV**, select UTF-8 and Tab, and set columns to **Text** before loading. That preserves entries such as `14/88` and `18`. Filter by `category`, `term_kind`, or `enabled`. Use the six sublists to focus review on one question at a time.
 
@@ -36,6 +38,8 @@ PowerShell can read UTF-8 TXT, CSV, TSV, LOG and Markdown. For documents, screen
 
 The scanner records the first literal occurrence of each term on each export line. `-WholeWord` reduces accidental matches inside other words or numbers. It can miss glyphs embedded in a longer token. A focused Ctrl+F pass can find those strings. Search variants separately when punctuation, accents, spacing, OCR or line wrapping changes the text. The CSV gives export line and column. Use the original artifact ID for the evidence record. CSV matching includes every field on the line, so check which field contains the hit.
 
+For an exact URL, hostname or submitted query in a CSV field, use `Find-ArtifactMatch.ps1`. Instructions are in `artifact-review/README.md` in the ZIP.
+
 ## Review actual searches and purchases
 
 Phrases such as `chemical theft`, `missing chemicals` and `suspected explosive device` can surface incident reports, news, safety material or conversations about suspected events. Their presence in the conduct list supplies no evidence that someone would type them when researching or buying something.
@@ -57,4 +61,4 @@ Start with the authorized date range and IDs already in the file, such as a mess
 
 ## Sources and coverage
 
-The ZIP includes the NVE research pilot, source review, literature blind spots and manifesto language audit under `research/`. The GitHub branch records list provenance and lets you rebuild the exports. The first-pass selection is editorial and has been exercised with synthetic test records. Operational recall and false-positive rates remain unmeasured.
+The ZIP includes the NVE pilot and source notes under `research/`. Tests use sample records. Case recall and false-positive rates are unmeasured.

@@ -7,7 +7,7 @@ from zipfile import ZipFile
 
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "tools"))
-from build_imve_review import CATEGORIES, DOCS, INPUTS, LISTS, ROOT, ZIP, read_rows
+from build_imve_review import ARTIFACTS, CATEGORIES, DOCS, INPUTS, LISTS, ROOT, WHMIS, ZIP, read_rows
 
 
 class ImveKitTests(unittest.TestCase):
@@ -51,12 +51,23 @@ class ImveKitTests(unittest.TestCase):
             "README.md": DOCS / "README.md",
             "LOCAL-AI.md": DOCS / "LOCAL-AI.md",
             "Find-WordList.ps1": ROOT / "manual/Find-WordList.ps1",
+            "Find-ArtifactMatch.ps1": ROOT / "manual/Find-ArtifactMatch.ps1",
+            "artifact-review/README.md": ARTIFACTS / "README.md",
+            "artifact-review/indicator-template.tsv": ARTIFACTS / "indicator-template.tsv",
+            "artifact-review/context-review-template.tsv": ARTIFACTS / "context-review-template.tsv",
+            "artifact-review/domains/README.md": ARTIFACTS / "domains/README.md",
+            "artifact-review/domains/site-indicators.tsv": ARTIFACTS / "domains/site-indicators.tsv",
+            "whmis/README.md": WHMIS / "README.md",
             "review-log-template.tsv": DOCS / "review-log-template.tsv",
             "EVIDENCE_TRIAGE.md": ROOT / "manual/EVIDENCE_TRIAGE.md",
             "research/NVE-RESEARCH-PILOT.tsv": ROOT / "data/imve-review/NVE-RESEARCH-PILOT.tsv",
             "LICENSE": ROOT / "LICENSE",
             "data-LICENSE": ROOT / "data/LICENSE",
         })
+        for name in ("hazard-labels", "workplace-safety", "masterlist"):
+            for suffix in ("tsv", "txt"):
+                member = f"{name}.{suffix}"
+                members[f"whmis/{member}"] = WHMIS / member
         for note in DOCS.glob("NVE-*.md"):
             members[f"research/{note.name}"] = note
         with ZipFile(ZIP) as kit:
@@ -67,6 +78,15 @@ class ImveKitTests(unittest.TestCase):
                 self.assertEqual(entry.external_attr >> 16, 0o100644)
             for name, path in members.items():
                 self.assertEqual(kit.read(name), path.read_bytes().replace(b"\r\n", b"\n"))
+
+    def test_whmis_master_and_empty_case_templates(self):
+        sublists = read_rows(WHMIS / "hazard-labels.tsv") + read_rows(WHMIS / "workplace-safety.tsv")
+        master = read_rows(WHMIS / "masterlist.tsv")
+        self.assertEqual(master, sorted(sublists, key=lambda row: row["term"].lower()))
+        self.assertEqual((WHMIS / "masterlist.txt").read_text(encoding="utf-8").splitlines(),
+                         [row["term"] for row in master])
+        for template in ("indicator-template.tsv", "domains/site-indicators.tsv", "context-review-template.tsv"):
+            self.assertEqual(read_rows(ARTIFACTS / template), [])
 
 
 if __name__ == "__main__":

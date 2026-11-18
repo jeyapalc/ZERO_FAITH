@@ -9,6 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data/imve-review"
 LISTS = ROOT / "lists/imve-review"
 DOCS = ROOT / "docs/imve-review"
+ARTIFACTS = ROOT / "artifact-review"
+WHMIS = ROOT / "whmis"
 ZIP = ROOT / "downloads/imve-review.zip"
 
 GROUPS = "groups-and-aliases"
@@ -30,6 +32,7 @@ INPUTS = (
     ("FAITH", "ZERO_FAITH", ROOT / "lists/masterlist.tsv"),
     ("NIHL", "ZERO_NIHL", DATA / "zero-nihl.tsv"),
     ("NAZ", "ZERO_NAZ", DATA / "zero-naz.tsv"),
+    ("CONTEXT", "ZERO_FAITH", DATA / "context-mentions.tsv"),
 )
 
 
@@ -63,6 +66,17 @@ def category(group, row, kind):
         return origin
     if kind in {"number", "mixed_code", "letter_code", "glyph", "symbol_name"}:
         return CODES
+    if group == "CONTEXT":
+        tier = row["tier"]
+        if entry in {"saints-culture", "columbiners", "militant-accelerationism", "accelerationnisme-militant"}:
+            return NARRATIVES
+        if entry in {"true-crime-community", "oath-keepers", "proud-boys", "three-percenters", "groypers",
+                     "boogaloo-bois", "hide-stalk", "hide-stalk-alt", "diagolon", "terrorgram-collective",
+                     "collectif-terrorgram"}:
+            return GROUPS
+        if tier in {"historical_event", "historical_reference", "us_capitol_reference"}:
+            return INCIDENTS
+        return CONDUCT
     if group == "PILOT":
         if entry == "nve":
             return POLICY
@@ -128,7 +142,7 @@ def merge_rows():
                 "source_repository": [repository],
                 "source_file": [path.relative_to(ROOT).as_posix()],
                 "source_entries": [f"{group}:{entry}"],
-                "source_categories": [row.get("category", "") or "research_pilot"],
+                "source_categories": [row.get("category") or (row["tier"] if group == "CONTEXT" else "research_pilot")],
                 "evidence_basis": [row.get("evidence_basis", "") or "see cited source and context note"],
             }.items():
                 for value in values:
@@ -146,11 +160,11 @@ def merge_rows():
     return output
 
 
-def write_list(directory, name, rows):
+def write_list(directory, name, rows, fields=FIELDS):
     directory.mkdir(parents=True, exist_ok=True)
     table = directory / f"{name}.tsv"
     with table.open("w", encoding="utf-8", newline="") as file:
-        writer = csv.DictWriter(file, FIELDS, delimiter="\t", lineterminator="\n")
+        writer = csv.DictWriter(file, fields, delimiter="\t", lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     plain = directory / f"{name}.txt"
@@ -164,11 +178,27 @@ def build():
     for label in CATEGORIES:
         subset = [row for row in rows if row["category"] == label]
         exports.extend(write_list(LISTS / "categories", label, subset))
+    context = read_rows(DATA / "context-mentions.tsv")
+    exports.extend(write_list(LISTS, "context-mentions", context, tuple(context[0])))
     kit = {path.relative_to(LISTS).as_posix(): path for path in exports}
+    safety = []
+    for name in ("hazard-labels", "workplace-safety"):
+        sublist = read_rows(WHMIS / f"{name}.tsv")
+        kit.update({f"whmis/{path.name}": path for path in write_list(WHMIS, name, sublist, tuple(sublist[0]))})
+        safety.extend(sublist)
+    safety.sort(key=lambda row: row["term"].lower())
+    kit.update({f"whmis/{path.name}": path for path in write_list(WHMIS, "masterlist", safety, tuple(safety[0]))})
     kit.update({
         "README.md": DOCS / "README.md",
         "LOCAL-AI.md": DOCS / "LOCAL-AI.md",
         "Find-WordList.ps1": ROOT / "manual/Find-WordList.ps1",
+        "Find-ArtifactMatch.ps1": ROOT / "manual/Find-ArtifactMatch.ps1",
+        "artifact-review/README.md": ARTIFACTS / "README.md",
+        "artifact-review/indicator-template.tsv": ARTIFACTS / "indicator-template.tsv",
+        "artifact-review/context-review-template.tsv": ARTIFACTS / "context-review-template.tsv",
+        "artifact-review/domains/README.md": ARTIFACTS / "domains/README.md",
+        "artifact-review/domains/site-indicators.tsv": ARTIFACTS / "domains/site-indicators.tsv",
+        "whmis/README.md": WHMIS / "README.md",
         "LICENSE": ROOT / "LICENSE",
         "data-LICENSE": ROOT / "data/LICENSE",
         "review-log-template.tsv": DOCS / "review-log-template.tsv",

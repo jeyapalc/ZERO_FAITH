@@ -1,0 +1,8 @@
+term	enabled	context_note	source_urls	entry_id	language	tier
+safety glasses	TRUE	Ordinary workplace eye protection. Use this to locate safety records.	https://www.ccohs.ca/oshanswers/prevention/ppe/glasses.html	safety-glasses	en	workplace_context
+protective eyewear	TRUE	Ordinary workplace eye protection. Use this to locate safety records.	https://www.ccohs.ca/oshanswers/prevention/ppe/glasses.html	protective-eyewear	en	workplace_context
+face shield	TRUE	Ordinary workplace eye and face protection. Use this to locate safety records.	https://www.ccohs.ca/oshanswers/prevention/ppe/glasses.html	face-shield	en	workplace_context
+protective gloves	TRUE	Ordinary workplace hand protection. Use this to locate safety records.	https://www.ccohs.ca/oshanswers/chemicals/howto/health_hazard.html	protective-gloves	en	workplace_context
+first aid kit	TRUE	Ordinary workplace emergency equipment. Use this to locate safety records.	https://www.ccohs.ca/oshanswers/hsprograms/firstaid/firstaid_general.html	first-aid-kit	en	workplace_context
+eyewash station	TRUE	Ordinary workplace emergency equipment. Use this to locate safety records.	https://www.ccohs.ca/oshanswers/safety_haz/emer_showers.html	eyewash-station	en	workplace_context
+emergency shower	TRUE	Ordinary workplace emergency equipment. Use this to locate safety records.	https://www.ccohs.ca/oshanswers/safety_haz/emer_showers.html	emergency-shower	en	workplace_context

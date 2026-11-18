@@ -2,21 +2,31 @@ access to weapons
 animal cruelty
 Anschlagsplanung
 Anschlagsvorbereitung
+anti-authority militia
+arson investigation
+assault with a weapon
 attack planning
 attack preparation
 attacker emulation
+attempted arson
+attempted murder
 Ausgangsstoff für Explosivstoffe
+bleeding control
+blocked emergency exit
 blood signs
 Blutzeichen
+call for service
 chemical security
 chemical theft
 Chemikaliendiebstahl
 Chemikaliensicherheit
+club membership
 coerced self-harm
 cut signs
 death threat
 Doxing
 doxxing
+emergency medical services
 erzwungene Selbstverletzung
 explosive device
 explosives precursor
@@ -24,34 +34,85 @@ explosives research
 explosives theft
 fan signs
 Fan-Zeichen
+fire investigation
+firearm
+firearms
+Firearms Safety Course
+first aid course
 fixation
 Fixierung
+formation en secourisme
+garrot
 Gewaltaufnahmen
 gezielte Morddrohungen
+gunshot wound
+hunter education
+hunting
+hunting licence
+hunting license
+I am going to kill you
+I will kill you
+incident report
 inventory discrepancy
+knife
+knives
 Leakage
+menaces de mort
+menaces d’attaque
+milice antiautoritaire
 missing chemicals
+Molotov cocktail
+Molotov cocktails
 Morddrohung
+obstructed exit
+police file number
+police responded
+pressure dressing
+proféré des menaces
+range reservation
+reported to police
+responding officers
 sadistic online exploitation
 sadistische Online-Ausbeutung
 Schnitzzeichen
 sextortion
 sexuelle Erpressung
+shooting club
+shooting clubs
+shooting range
+shooting ranges
+shots fired
+sport shooting
 Sprengstoffrecherche
 Sprengvorrichtung
+stab wound
+stabbing
 suspected explosive device
 suspicious chemical transaction
 suspicious transaction
 Swatting
+sword
+swords
+target shooting
 target surveillance
 targeted death threats
+threat of violence
+threat to kill
+threatened an attack
+threatening message
 Tierquälerei
+tourniquet
+tourniquets
+trauma kit
 Täter-Nachahmung
+uttering threats
 verdächtige Transaktion
 vermisste Chemikalien
 violent footage
 Waffenbeschaffung
 wall signs
 weapons acquisition
+weapons complaint
+witness statement
 Zielausspähung
 Zugang zu Waffen
