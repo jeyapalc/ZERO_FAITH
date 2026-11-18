@@ -180,6 +180,8 @@ def build():
     with ZipFile(ZIP, "w") as archive:
         for name, path in sorted(kit.items()):
             member = ZipInfo(name, date_time=(1980, 1, 1, 0, 0, 0))
+            member.create_system = 3
+            member.external_attr = 0o100644 << 16
             archive.writestr(member, path.read_bytes().replace(b"\r\n", b"\n"))
     print(f"{len(rows)} distinct terms, {sum(row['enabled'] == 'TRUE' for row in rows)} enabled.")
     for label in CATEGORIES:

@@ -62,6 +62,9 @@ class ImveKitTests(unittest.TestCase):
         with ZipFile(ZIP) as kit:
             self.assertEqual(kit.namelist(), sorted(members))
             self.assertIsNone(kit.testzip())
+            for entry in kit.infolist():
+                self.assertEqual(entry.create_system, 3)
+                self.assertEqual(entry.external_attr >> 16, 0o100644)
             for name, path in members.items():
                 self.assertEqual(kit.read(name), path.read_bytes().replace(b"\r\n", b"\n"))
 
