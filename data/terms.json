@@ -125,20 +125,23 @@
     "terms": {
       "en": [
         "Atomwaffen Division",
-        "AWD"
+        "AWD",
+        "National Socialist Order",
+        "NSO"
       ],
       "de": []
     },
     "category": "entity_reference",
     "source_ids": [
-      "ca-lte"
+      "ca-lte",
+      "ca-lte-current"
     ],
     "scope": "canadian_lte_reference",
     "meaning": "Neo-Nazi entity.",
     "evidence_basis": "source_attested_label",
     "german_basis": "not_applicable",
     "action": "human_review",
-    "reviewed_at": "2026-11-03",
+    "reviewed_at": "2026-11-17",
     "status": "initial_research",
     "retrieval_enabled": true,
     "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
@@ -369,23 +372,31 @@
     "id": "mmc",
     "terms": {
       "en": [
-        "Maniac Murder Cult"
+        "Maniac Murder Cult",
+        "Maniacs: Cult of Killing",
+        "Manyaki",
+        "Kult Ubiystva",
+        "MKY",
+        "M.K.Y.",
+        "MKU"
       ],
       "de": []
     },
     "category": "entity_reference",
     "source_ids": [
-      "ca-lte"
+      "ca-lte",
+      "ca-lte-current",
+      "ca-csis-2025"
     ],
     "scope": "canadian_lte_reference",
     "meaning": "Violent online network.",
     "evidence_basis": "source_attested_label",
     "german_basis": "not_applicable",
     "action": "human_review",
-    "reviewed_at": "2026-11-03",
+    "reviewed_at": "2026-11-17",
     "status": "initial_research",
     "retrieval_enabled": true,
-    "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+    "context_note": "Public Canadian reporting provides a Canadian connection. Names/acronyms remain ambiguous; a mention does not establish membership or intent."
   },
   {
     "id": "ssc",
@@ -818,5 +829,119 @@
     "status": "initial_research",
     "retrieval_enabled": true,
     "context_note": "Mention is not endorsement or membership. Review reporting, quotation, research, victim disclosure, counterspeech, and unrelated uses."
+  },
+  {
+    "id": "ca-hide-stalk",
+    "terms": {
+      "en": [
+        "Hide & Stalk"
+      ],
+      "de": []
+    },
+    "category": "entity_reference",
+    "source_ids": [
+      "ca-csis-2025"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Quebec militia discussed in CSIS 2025 reporting; allegations are not convictions.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-17",
+    "status": "initial_research",
+    "retrieval_enabled": true,
+    "context_note": "Context required. Source date and classification limits apply; no membership, intent, or current legal status is inferred."
+  },
+  {
+    "id": "ca-historical-atalante",
+    "terms": {
+      "en": [],
+      "de": [],
+      "fr": [
+        "Atalante"
+      ]
+    },
+    "category": "research_reference",
+    "source_ids": [
+      "ca-outreach-2019"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Historical Quebec research reference (2019); current activity not verified.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-17",
+    "status": "initial_research",
+    "retrieval_enabled": false,
+    "context_note": "Historical workshop attribution, not a formal CSIS finding or terrorist listing. Disabled research reference; verify current context."
+  },
+  {
+    "id": "ca-historical-legitime",
+    "terms": {
+      "en": [],
+      "de": [],
+      "fr": [
+        "Légitime Violence"
+      ]
+    },
+    "category": "research_reference",
+    "source_ids": [
+      "ca-outreach-2019"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Historical Quebec research reference (2019); current activity not verified.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-17",
+    "status": "initial_research",
+    "retrieval_enabled": false,
+    "context_note": "Historical workshop attribution, not a formal CSIS finding or terrorist listing. Disabled research reference; verify current context."
+  },
+  {
+    "id": "ca-historical-legion",
+    "terms": {
+      "en": [],
+      "de": [],
+      "fr": [
+        "Légion Nationaliste"
+      ]
+    },
+    "category": "research_reference",
+    "source_ids": [
+      "ca-outreach-2019"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Historical Quebec research reference (2019); current activity not verified.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-17",
+    "status": "initial_research",
+    "retrieval_enabled": false,
+    "context_note": "Historical workshop attribution, not a formal CSIS finding or terrorist listing. Disabled research reference; verify current context."
+  },
+  {
+    "id": "ca-historical-quebec-radical",
+    "terms": {
+      "en": [],
+      "de": [],
+      "fr": [
+        "Québec Radical"
+      ]
+    },
+    "category": "research_reference",
+    "source_ids": [
+      "ca-outreach-2019"
+    ],
+    "scope": "canadian_research_reference",
+    "meaning": "Historical Quebec research reference (2019); current activity not verified.",
+    "evidence_basis": "source_attested_label",
+    "german_basis": "not_applicable",
+    "action": "human_review",
+    "reviewed_at": "2026-11-17",
+    "status": "initial_research",
+    "retrieval_enabled": false,
+    "context_note": "Historical workshop attribution, not a formal CSIS finding or terrorist listing. Disabled research reference; verify current context."
   }
 ]

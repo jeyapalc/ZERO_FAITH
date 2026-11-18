@@ -1,5 +1,10 @@
 # ZERO_FAITH
 
+## Masterlist and user manual
+
+Start with the [cited masterlist](lists/masterlist.tsv), [one-term-per-line list](lists/masterlist.txt), and [Excel / PowerShell manual](manual/README.md). Each project has one masterlist across source languages. Canadian relevance, evidence, and context govern inclusion; this is not a translation exercise. Existing project translations remain labelled as such, not evidence of Canadian usage. The broader Canadian entity registry remains separate because not every listed entity is IMVE.
+
+
 **Sourced moderation review vocabulary for ideologically motivated violent extremism (IMVE), with explicit Canadian coverage.**
 
 IMVE follows Canadian policy terminology: xenophobic, anti-authority, gender-driven, and other grievance-driven violence. ZERO_FAITH is a project name, not a claim that faith is extremist. Religiously motivated violent extremism (RMVE) and politically motivated violent extremism (PMVE) are separate Canadian categories; they are not interchangeable with IMVE.

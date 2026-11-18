@@ -5,11 +5,12 @@ Active Club Canada [contextual / scene_term] — https://www.isdglobal.org/digit
 Anschlagsplanung [contextual / behavior_reference] — https://www.fbi.gov/file-repository/reports-and-publications/making-prevention-a-reality.pdf/download
 anti-authority violence [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
 Aryan Strikeforce [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
-Atomwaffen Division [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Atalante [research_only / research_reference] — https://www.canada.ca/content/dam/csis-scrs/documents/publications/AO-Right-WingExt_POST%20REPORT_digital_E.pdf#page=62
+Atomwaffen Division [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
 attack planning [contextual / behavior_reference] — https://www.fbi.gov/file-repository/reports-and-publications/making-prevention-a-reality.pdf/download
 attacker emulation [contextual / behavior_reference] — https://www.fbi.gov/file-repository/reports-and-publications/making-prevention-a-reality.pdf/download
 autoritätsfeindliche Gewalt [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
-AWD [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+AWD [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
 beschwerdegetriebene Gewalt [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
 Big Igloo [contextual / coded_reference] — https://www.adl.org/resources/backgrounder/boogaloo-movement
 Big Luau [contextual / coded_reference] — https://www.adl.org/resources/backgrounder/boogaloo-movement
@@ -31,16 +32,28 @@ geschlechtsbezogene Gewalt [research_only / research_reference] — https://www.
 gezielte Morddrohungen [contextual / behavior_reference] — https://www.fbi.gov/file-repository/reports-and-publications/making-prevention-a-reality.pdf/download
 going ER [contextual / coded_reference] — https://www.adl.org/resources/backgrounder/incels-involuntary-celibates
 grievance-driven violence [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
+Hide & Stalk [contextual / entity_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2025/operations-and-analysis.html
 ideologically motivated violent extremism [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
 ideologisch motivierter Gewaltextremismus [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
 IMVE [research_only / research_reference] — https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2024/intelligence-operations.html
 James Mason [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Kult Ubiystva [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2025/operations-and-analysis.html
 Loyalist Pioneers [contextual / scene_term] — https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
-Maniac Murder Cult [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Légion Nationaliste [research_only / research_reference] — https://www.canada.ca/content/dam/csis-scrs/documents/publications/AO-Right-WingExt_POST%20REPORT_digital_E.pdf#page=62
+Légitime Violence [research_only / research_reference] — https://www.canada.ca/content/dam/csis-scrs/documents/publications/AO-Right-WingExt_POST%20REPORT_digital_E.pdf#page=62
+M.K.Y. [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2025/operations-and-analysis.html
+Maniac Murder Cult [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2025/operations-and-analysis.html
+Maniacs: Cult of Killing [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2025/operations-and-analysis.html
 Manitoba Active Club [contextual / scene_term] — https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
+Manyaki [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2025/operations-and-analysis.html
+MKU [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2025/operations-and-analysis.html
+MKY [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2025/operations-and-analysis.html
+National Socialist Order [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
 Nationalist-13 [contextual / scene_term] — https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
+NSO [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
 Ordo Atlantica [contextual / scene_term] — https://www.isdglobal.org/digital-dispatch/tribe-and-train-examining-canadas-new-model-of-white-supremacist-mobilization/
 Proud Boys [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx
+Québec Radical [research_only / research_reference] — https://www.canada.ca/content/dam/csis-scrs/documents/publications/AO-Right-WingExt_POST%20REPORT_digital_E.pdf#page=62
 Reichsbuerger [contextual / scene_term] — https://www.lfv.bayern.de/themen/reichsbuerger-und-selbstverwalter/
 Reichsbürger [contextual / scene_term] — https://www.lfv.bayern.de/themen/reichsbuerger-und-selbstverwalter/
 Russian Imperial Movement [contextual / entity_reference] — https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx

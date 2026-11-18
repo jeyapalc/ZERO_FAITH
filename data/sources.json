@@ -86,5 +86,29 @@
     "url": "https://www.fbi.gov/file-repository/reports-and-publications/making-prevention-a-reality.pdf/download",
     "checked_at": "2026-11-03",
     "evidence_access": "full_page"
+  },
+  {
+    "id": "ca-lte-current",
+    "publisher": "Public Safety Canada",
+    "title": "Currently listed entities: verified names and aliases",
+    "url": "https://www.publicsafety.gc.ca/cnt/ntnl-scrt/cntr-trrrsm/lstd-ntts/crrnt-lstd-ntts-en.aspx",
+    "checked_at": "2026-11-17",
+    "evidence_access": "full_page"
+  },
+  {
+    "id": "ca-csis-2025",
+    "publisher": "CSIS",
+    "title": "Public Report 2025: Operations and analysis",
+    "url": "https://www.canada.ca/en/security-intelligence-service/corporate/publications/csis-public-report-2025/operations-and-analysis.html",
+    "checked_at": "2026-11-17",
+    "evidence_access": "full_page"
+  },
+  {
+    "id": "ca-outreach-2019",
+    "publisher": "CSIS Academic Outreach (independent workshop contributors)",
+    "title": "Right-Wing Extremist Networks, pp. 56-59; historical research, not a formal CSIS assessment",
+    "url": "https://www.canada.ca/content/dam/csis-scrs/documents/publications/AO-Right-WingExt_POST%20REPORT_digital_E.pdf#page=62",
+    "checked_at": "2026-11-17",
+    "evidence_access": "full_page"
   }
 ]
