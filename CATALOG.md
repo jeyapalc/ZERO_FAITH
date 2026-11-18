@@ -1,4 +1,4 @@
-# ZERO_NIHL catalog
+# ZERO_FAITH catalog
 
 All terms are context-dependent retrieval vocabulary. Observation prompts require direct evidence and qualified human assessment. No risk scores or automatic intent inference.
 
