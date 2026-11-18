@@ -11,6 +11,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: python tools/build.py
+      - run: python tools/build_imve_review.py
       - run: python -m unittest discover -s tests -v
       - name: Verify PowerShell manual
         shell: pwsh

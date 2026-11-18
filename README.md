@@ -1,5 +1,21 @@
 # ZERO_FAITH
 
+## Canadian IMVE keyword review kit
+
+**[Download the offline ZIP](https://raw.githubusercontent.com/jeyapalc/ZERO_FAITH/imve-review/downloads/imve-review.zip)** or open the [review guide](docs/imve-review/README.md). The ZIP includes one masterlist, six category sublists, a PowerShell scanner, [a prompt for your local AI](docs/imve-review/LOCAL-AI.md), and public research notes.
+
+| Find in authorized records | Plain text | Cited TSV |
+| --- | --- | --- |
+| Everything | [Masterlist](lists/imve-review/masterlist.txt) | [Masterlist](lists/imve-review/masterlist.tsv) |
+| Groups, networks and names | [TXT](lists/imve-review/categories/groups-and-aliases.txt) | [TSV](lists/imve-review/categories/groups-and-aliases.tsv) |
+| Incidents and historical figures | [TXT](lists/imve-review/categories/incidents-and-figures.txt) | [TSV](lists/imve-review/categories/incidents-and-figures.tsv) |
+| Narratives, slogans and references | [TXT](lists/imve-review/categories/narratives-and-slogans.txt) | [TSV](lists/imve-review/categories/narratives-and-slogans.tsv) |
+| Numbers, letters and symbols | [TXT](lists/imve-review/categories/codes-and-symbols.txt) | [TSV](lists/imve-review/categories/codes-and-symbols.tsv) |
+| Conduct and artifact context | [TXT](lists/imve-review/categories/conduct-and-context.txt) | [TSV](lists/imve-review/categories/conduct-and-context.tsv) |
+| Official terminology | [TXT](lists/imve-review/categories/official-terminology.txt) | [TSV](lists/imve-review/categories/official-terminology.tsv) |
+
+Every result points the reviewer back to the original record. Use the existing [Canadian listed entity registry](CANADA_LTE_CATALOG.md) for wider national security lookups across categories.
+
 ## Masterlist and user manual
 
 Start with the [cited masterlist](lists/masterlist.tsv), [one-term-per-line list](lists/masterlist.txt), and [Excel / PowerShell manual](manual/README.md). Each project has one masterlist across source languages. Canadian relevance, evidence, and context govern inclusion; this is not a translation exercise. Existing project translations remain labelled as such, not evidence of Canadian usage. The broader Canadian entity registry remains separate because not every listed entity is IMVE.
